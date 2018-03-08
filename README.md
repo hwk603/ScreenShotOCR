@@ -2,6 +2,6 @@
 
 ### The first day 
 
-![](.\public\images\firstDay.png)
+![](public\images\firstDay.png)
 
 
