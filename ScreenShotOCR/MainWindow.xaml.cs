@@ -24,5 +24,10 @@ namespace ScreenShotOCR
         {
             InitializeComponent();
         }
+
+        private void ButtonClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(string.Format("Hello,{0}", this.txtName.Text));
+        }
     }
 }

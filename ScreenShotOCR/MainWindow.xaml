@@ -19,5 +19,9 @@
 		<materialDesign:Card Padding="32" Margin="16">
 			<TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
 		</materialDesign:Card>
-		</Grid>
+		<TextBlock Text="Enter Name" Padding="0" Margin="33,160,407,134" RenderTransformOrigin="0.573,1.074"/>
+		<TextBox x:Name="txtName" Grid.Column="0" Grid.Row="0" Margin="164,156,31,134"></TextBox>
+		<Button Content="Click" Grid.Column="0" Grid.Row="0" Height="Auto" Margin="205,218,201,66" RenderTransformOrigin="0.282,0.554" Click="ButtonClick"></Button>
+		
+	</Grid>
 </Window>
